@@ -23,7 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 
 <?php
-  $this->load->view("$module/top");
+  $this->load->view("default/top");
   $this->load->view($loadPage);
-  $this->load->view("$module/bottom");
+  $this->load->view("default/bottom");
  ?>
