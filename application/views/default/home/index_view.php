@@ -1,3 +1,26 @@
+<!-- Slider  -->
+<div class="jarallax callbacks_container w3-layouts">
+	<ul class="rslides callbacks callbacks1 agileits" id="slider4">
+		<li id="callbacks1_s1" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out;">
+			<img src="<?php echo base_url(); ?>public/default/images/b1.jpg" alt="home" />
+			<div class="caption text-center"><h3>Lorem ipsum dolor sit amet.</h3><p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p></div>
+		</li>
+		<li id="callbacks1_s2" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out;">
+			<img src="<?php echo base_url(); ?>public/default/images/b2.jpg" alt="home" />
+			<div class="caption text-center"><h3>Lorem ipsum dolor sit amet.</h3><p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p></div>
+		</li>
+		<li id="callbacks1_s3" class="callbacks1_on" style="float: left; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 500ms ease-in-out;">
+			<img src="<?php echo base_url(); ?>public/default/images/b3.jpg" alt="home" />
+			<div class="caption text-center"><h3>Lorem ipsum dolor sit amet.</h3> <p> Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p></div>
+		</li>
+		 <li id="callbacks1_s6" class="callbacks1_on" style="float: left; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 500ms ease-in-out;">
+			<img src="<?php echo base_url(); ?>public/default/images/b7.jpg" alt="home" />
+			<div class="caption text-center"><h3>Lorem ipsum dolor sit amet.</h3> <p> Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p></div>
+		</li>
+	</ul>
+	<a href="#" class="callbacks_nav callbacks1_nav prev">Previous</a><a href="#" class="callbacks_nav callbacks1_nav next">Next</a>
+</div>
+
 <!-- about -->
 <div class="jarallax w3ls-about agile-section" id="about">
 	<div class="container">
