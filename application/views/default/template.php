@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<title>Scholar an Education Category Flat Bootstrap Responsive  Website Template | Home :: w3layouts</title>
+<title>Bao Minh Preschool</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Scholar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta name="keywords" content="Bao Minh Preschool" />
+<link rel="icon" type="image/png" href="<?php echo base_url(); ?>public/default/images/fav.png">
 <!-- css files -->
 <link href="<?php echo base_url(); ?>public/default/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?php echo base_url(); ?>public/default/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />

@@ -4,6 +4,7 @@
     public function __construct(){
       parent::__construct();
       $this->_data['path'] = 'default/template';
+      $this->output->cache(1440);
     }
 
     public function index(){
