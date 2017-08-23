@@ -16,7 +16,7 @@
 	</div>
 </div>
 <!-- //footer -->
-<script src="<?php echo base_url(); ?>public/default/js/imagelightbox.js"></script>
+<script src="<?php echo base_url(); ?>public/default/js/imagelightbox.min.js"></script>
 <script>
 $('a[data-imagelightbox="g"]').imageLightbox({
         activity: true,
@@ -52,7 +52,7 @@ $(function () {
 });
 </script>
 <!-- //Banner-plugin -->
-<script src="<?php echo base_url(); ?>public/default/js/jarallax.js"></script>
+<script src="<?php echo base_url(); ?>public/default/js/jarallax.min.js"></script>
 <script src="<?php echo base_url(); ?>public/default/js/SmoothScroll.min.js"></script>
 <script type="text/javascript">
 	/* init Jarallax */
@@ -81,7 +81,7 @@ $(function () {
 
 		<!-- start-smoth-scrolling -->
 		<script type="text/javascript" src="<?php echo base_url(); ?>public/default/js/move-top.js"></script>
-		<script type="text/javascript" src="<?php echo base_url(); ?>public/default/js/easing.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>public/default/js/easing.min.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){

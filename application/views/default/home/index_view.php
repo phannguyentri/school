@@ -251,7 +251,7 @@
 				<div class="sreen-gallery-cursual">
 							 <!-- required-js-files-->
 							<link href="<?php echo base_url(); ?>public/default/css/owl.carousel.css" rel="stylesheet">
-							    <script src="<?php echo base_url(); ?>public/default/js/owl.carousel.js"></script>
+							    <script src="<?php echo base_url(); ?>public/default/js/owl.carousel.min.js"></script>
 							        <script>
 							    $(document).ready(function() {
 							      $("#owl-demo").owlCarousel({

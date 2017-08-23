@@ -79,7 +79,7 @@
 </div>
 <!--start-date-piker-->
 		<link rel="stylesheet" href="<?php echo base_url(); ?>public/default/css/jquery-ui.css" />
-		<script src="<?php echo base_url(); ?>public/default/js/jquery-ui.js"></script>
+		<script src="<?php echo base_url(); ?>public/default/js/jquery-ui.min.js"></script>
 			<script>
 				$(function() {
 				$( "#datepicker,#datepicker1" ).datepicker();
