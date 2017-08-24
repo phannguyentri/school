@@ -8,7 +8,8 @@
 <div class="jarallax agileits_w3layouts-map agile-section">
 	<div class="container">
 		<h3 class="agileits-title">Locate us</h3>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206999.9229094028!2d-94.68036438842559!3d38.28329754183497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0e6d54822e37d%3A0xb55bc4590466bd72!2sMissouri%2C+USA!5e0!3m2!1sen!2sin!4v1488516820426" style="border:0" allowfullscreen></iframe>
+    <div id="map"></div>
+		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206999.9229094028!2d-94.68036438842559!3d38.28329754183497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0e6d54822e37d%3A0xb55bc4590466bd72!2sMissouri%2C+USA!5e0!3m2!1sen!2sin!4v1488516820426" style="border:0" allowfullscreen></iframe> -->
 	</div>
 </div>
 <!-- //map -->
@@ -65,3 +66,21 @@
 	</div>
 </div>
 <!-- //contact -->
+<script type="text/javascript">
+  function initMap() {
+    var uluru = {lat: 10.8326657, lng: 106.6698982};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 14,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+      title:"Đây nè!",
+      draggable: true,
+      animation: google.maps.Animation.DROP,
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA_nqc30k_F5eIAQv5q11gv4mcCfYEn1c&callback=initMap">
+</script>
